@@ -1,0 +1,10 @@
+{
+  "name": "painel-gerencial-frota",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Painel gerencial de frota com processamento automatizado da planilha Excel.",
+  "scripts": {
+    "build": "python scripts/build_public_data.py",
+    "test": "node --test tests/*.test.cjs"
+  }
+}
